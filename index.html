@@ -49,13 +49,53 @@
         max-width: 800px;
         margin: auto;
     }
+
     /* navigation menu */
     nav {
-        background: rgb(136, 179, 221);
+        background: rgb(255, 255, 255);
         margin: 0 auto;
         display: flex;
         padding: 10px;
     }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+    
+</style>
     
 
 </body>
