@@ -1,3 +1,4 @@
+/*globals cannon */
 (function (window) {
     'use strict';
     window.opspark = window.opspark || {};
@@ -33,10 +34,23 @@
          * bottom of the game.
          */
         platform.create(0, game.world.height - 32, 3, 2);
+    
 
         // example:
-        platform.create(400, 460);
-        platform.create(500, 200);
+        
+        platform.create(200, 200);
+        platform.create(6, 600);
+        platform.create(100, 300);
+        platform.create(50, 500);
+        platform.create(500, 550);
+        platform.create(100, 100);
+        platform.create(400, 450);
+        platform.create(300, 350);
+        
+        
+      
+        
+        
         
         
         
