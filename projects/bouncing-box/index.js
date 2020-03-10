@@ -60,7 +60,13 @@
         speed = speed + 3;
         changeBoxText(points);
         
-
+        var positionY;
+        var speedY;
+    function moveBoxTo(newPositionX, newPositionY) {
+    box.css('left', newPositionX);
+    box.css('top', newPositionY);
+}
+moveBoxTo(positionX, positionY);
 
     };
 })();
